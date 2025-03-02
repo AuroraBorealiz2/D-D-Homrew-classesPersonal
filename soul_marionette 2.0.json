@@ -1,0 +1,165 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "SoulMarionette",
+        "abbreviation": "HB",
+        "full": "Sorcerer: Soul Marionette",
+        "authors": [
+          "TuNombre"
+        ],
+        "convertedBy": [
+          "TuNombre"
+        ],
+        "version": "1.0",
+        "url": "",
+        "color": "a68570"
+      }
+    ],
+    "edition": "classic",
+    "status": "ready",
+    "dateAdded": 1690000000,
+    "dateLastModified": 1690000000,
+    "_dateLastModifiedHash": "abc123"
+  },
+  "subclass": [
+    {
+      "name": "Soul Marionette",
+      "shortName": "Soul Marionette",
+      "source": "SoulMarionette",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassFeatures": [
+        "Soul Marionette Spells|Sorcerer||Soul Marionette|SoulMarionette|1",
+        "Ethereal Puppetry|Sorcerer||Soul Marionette|SoulMarionette|1",
+        "Arcane Relay|Sorcerer||Soul Marionette|SoulMarionette|6",
+        "Spectral Bondage|Sorcerer||Soul Marionette|SoulMarionette|14",
+        "Gyre of the Soul|Sorcerer||Soul Marionette|SoulMarionette|18",
+        "Guided Somatics|Sorcerer||Soul Marionette|SoulMarionette|18"
+      ]
+    }
+  ],
+  "subclassFeature": [
+    {
+      "name": "Soul Marionette Spells",
+      "source": "SoulMarionette",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Soul Marionette",
+      "subclassSource": "SoulMarionette",
+      "level": 1,
+      "entries": [
+        "Starting at 1st level, you learn additional spells when you reach certain levels in this class, as shown on the Soul Marionette Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.",
+        {
+          "type": "table",
+          "caption": "Soul Marionette Spells",
+          "colLabels": [
+            "Sorcerer Level",
+            "Spells"
+          ],
+          "colStyles": [
+            "col-2",
+            "col-10"
+          ],
+          "rows": [
+            [
+              "1st",
+              "Dissonant Whispers, Charm Person"
+            ],
+            [
+              "3rd",
+              "Enthrall, Shadow Blade"
+            ],
+            [
+              "5th",
+              "Life Transference, Enemies Abound"
+            ],
+            [
+              "7th",
+              "Compulsion, Charm Monster"
+            ],
+            [
+              "9th",
+              "Geas, Hold Monster"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ethereal Puppetry",
+      "source": "SoulMarionette",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Soul Marionette",
+      "subclassSource": "SoulMarionette",
+      "level": 1,
+      "entries": [
+        "Beginning at 1st level, you can force any creature to roll a Charisma saving throw against your spell save DC as an action. If they fail, you establish a magical link between them and yourself. If the creature is charmed by you, or under someone’s control such as with Command, or Suggestion, they roll with disadvantage.",
+        "Once this link is established, you may use a subsequent bonus action to compel the creature to:",
+        {
+          "type": "list",
+          "items": [
+            "Make an Attack against a creature in its range.",
+            "Move up to its movement speed in any direction.",
+            "Speak up to 50 words.",
+            "Use an item in its hands."
+          ]
+        },
+        "The link instantaneously ends if your command is directly harmful to it, if you fall unconscious, lose line of sight with the creature, choose to end it, or if you establish a link with another creature. The command is unaffected by language.",
+        "The first command costs nothing, the second command costs 1 Sorcery Point, and every subsequent command costs the previous amount of points +1. You do not need to issue a command every turn, and the cost of a command resets whenever your link to a creature is broken.",
+        "Starting at 9th level, you are able to issue as many commands as you’d like per turn, as opposed to the previous singular one, so long as you have sufficient Sorcery Points."
+      ]
+    },
+    {
+      "name": "Arcane Relay",
+      "source": "SoulMarionette",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Soul Marionette",
+      "subclassSource": "SoulMarionette",
+      "level": 6,
+      "entries": [
+        "At 6th level your ethereal path into other’s Souls is beaten, weathered and completely known to you, allowing for spells themselves to be sent across the path rather than just your thoughts.",
+        "Once you have established a link with a foe, you may cast spells from that foe’s body at no additional cost. Self Targeting spells such as Blade Ward affect the linked foe rather than yourself, and spells with a range such as firebolt are based on the foe’s position rather than your own. Additionally, when a spell cast in this method results in a killing blow you regain Sorcery Points equal to the level of the spell cast."
+      ]
+    },
+    {
+      "name": "Spectral Bondage",
+      "source": "SoulMarionette",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Soul Marionette",
+      "subclassSource": "SoulMarionette",
+      "level": 14,
+      "entries": [
+        "From 14th level onward you have enough practice with your unique abilities you are able to do them almost subconsciously, and that has a distinct effect on the victim. As an action you may expend a spell slot to attempt to override a creature’s mind. Said creature must roll a wisdom saving throw to resist it, though if the spell slot used is above level 5 the creature rolls both wisdom and charisma saving throws while using the lower result. Should the saving throw fail, they are deigned to serve you for a number of rounds equal to the level of spell slot expended.",
+        "While their mind is overridden, they can take an up to 10 word task from you and will attempt to complete it to the best of their ability until their servitude ends or they die. This command must be verbal, cannot be sent over magical means such as Sending, and must be from your own body rather than someone you are linked to. Creatures you override with this feature are subject to the effects of your Arcane Relay."
+      ]
+    },
+    {
+      "name": "Gyre of the Soul",
+      "source": "SoulMarionette",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Soul Marionette",
+      "subclassSource": "SoulMarionette",
+      "level": 18,
+      "entries": [
+        "By 18th level you can create a circular flow of magical wind in both the ethereal plane and the material that allows you to empower yourself and allies. If a creature is willing, you can use its spell slots to create sorcery points and use your own sorcery points to create metamagic effects for their spells. This ability fails in anti-magic, silence, or when an included creature is incapacitated."
+      ]
+    },
+    {
+      "name": "Guided Somatics",
+      "source": "SoulMarionette",
+      "className": "Sorcerer",
+      "classSource": "PHB",
+      "subclassShortName": "Soul Marionette",
+      "subclassSource": "SoulMarionette",
+      "level": 18,
+      "entries": [
+        "Additionally at 18th level, you gain complete mastery of your unique font of magic. When making use of your metamagic feature, you may spend up to 5 Sorcery Points to grant an equivalent effect to a nearby creature's next attack roll or saving throw as long as they are within Gyre of the Soul's range."
+      ]
+    }
+  ]
+}
